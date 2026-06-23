@@ -14,6 +14,7 @@ import time
 # Object Flags Variables
 car_charging = False
 truck_charging = False
+bus_charging = False
 
 ui = WebUI()
 detection_stream = VideoObjectDetection(confidence=0.5, debounce_sec=0.0)
@@ -34,16 +35,22 @@ def send_detections_to_ui(detections: dict):
       }
       if key == "car":
           print("Car Standard Vehicle detected!")
-          time.sleep(0.2)
+          time.sleep(0.5)
           car_charging = True
           Bridge.call("set_car_charging", car_charging)
           car_charging = False;
       if key == "truck":
           print("Truck Vehicle detected!")
-          time.sleep(0.2)
+          time.sleep(0.5)
           truck_charging = True
           Bridge.call("set_truck_charging", truck_charging)
           truck_charging = False;
+      if key == "bus":
+          print("Bus Vehicle detected!")
+          time.sleep(0.5)
+          bus_charging = True
+          Bridge.call("set_bus_charging", bus_charging)
+          bus_charging = False;
 
       ui.send_message("detection", message=entry)
 

@@ -58,6 +58,7 @@ SECTIONS
     .llext.rodata.noreloc : {
         *(.rodata)
         *(.rodata._GLOBAL__sub_I_matrix.str1.1)
+        *(.rodata._Z16set_bus_chargingb.str1.1)
         *(.rodata._Z16set_car_chargingb.str1.1)
         *(.rodata._Z18set_truck_chargingb.str1.1)
         *(.rodata._ZN10RpcDecoderILj1024EE12get_responseIN7arduino7msgpack6object5nil_tEEEbjRT_R8RpcError.str1.1)

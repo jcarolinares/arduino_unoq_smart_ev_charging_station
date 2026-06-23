@@ -56,6 +56,8 @@ void setup() {
   Bridge.begin();
   Bridge.provide("set_car_charging", set_car_charging);
   Bridge.provide("set_truck_charging", set_truck_charging);
+  Bridge.provide("set_bus_charging", set_bus_charging);
+
 
   // Modulinos Inizialitation
   Modulino.begin(Wire1);
@@ -71,7 +73,7 @@ void setup() {
       leds.show();
   }
 
-  // Rekay disconnected at the beggining as a safety feature
+  // Relay disconnected at the beggining as a safety feature
   relay_car.reset();
   relay_big_vehicle.reset();
   
@@ -87,9 +89,10 @@ void loop() {
   if(click){
     // Serial.println("Clicked!");
     if(counter<104){
-       counter++;
-       counter_frame[counter-1] = 1; // row, column // This way matrix overloads jumping to next row
-      
+      counter=counter+14;
+      for (int i=0; i<counter; i++){ 
+       counter_frame[i-1] = 1; // row, column // This way matrix overloads jumping to next row
+      }
        // matrix.renderBitmap(counter_frame, 8, 12);
        matrix.draw(counter_frame);
        delay(250); // Quick anti rebound botton control
@@ -113,6 +116,29 @@ void loop() {
   delay(10); // To control the speed of the reading of the sensors
 }
 
+// --- UPDATED CHARGING ANIMATION FUNCTION ---
+// Now accepts a delay parameter to control the speed
+void play_charging_animation(int columnDelayMs) {
+  // Create a temporary blank frame for the animation
+  uint8_t anim_frame[104] = {0};
+
+  // Loop through your 13 columns
+  for (int col = 0; col < 13; col++) {
+    // Fill the current column for all 8 rows
+    for (int row = 0; row < 8; row++) {
+      // Calculate index for a 1D array representing an 8x13 grid
+      anim_frame[(row * 13) + col] = 1;
+    }
+    
+    matrix.draw(anim_frame);
+    delay(columnDelayMs); // Wait for the specified time per column fill
+  }
+
+  // Restore the matrix display to the knob's current state when done
+  matrix.draw(counter_frame);
+}
+// ---------------------------------------
+
 void set_car_charging(bool state) {
     // LOW state means LED is ON
     digitalWrite(LED_BUILTIN, LOW);
@@ -121,21 +147,25 @@ void set_car_charging(bool state) {
   
     // Set all LEDs to RED
     for (int i = 0; i < 8; i++) {
-        leds.set(i, RED, brightness);
+        leds.set(i, GREEN, brightness);
         leds.show();
     }
     buzzer.tone(frequency, duration);  // Generate the tone
     delay(3000);
     buzzer.tone(0, duration);  // Stop the tone
     for (int i = 0; i < 8; i++) {
-        leds.set(i, RED, 0);
+        leds.set(i, GREEN, 0);
         leds.show();
     }
   digitalWrite(LED_BUILTIN, HIGH);
   
   // Activating Charge
   relay_car.set();
-  delay(10000); // Time to avoid multiple activations in different frames
+  
+  // Play charging animation (1 second per column) and then disconnect
+  play_charging_animation(1000);
+  relay_car.reset();
+  delay(10000);
 }
 
 void set_truck_charging(bool state) {
@@ -160,5 +190,49 @@ void set_truck_charging(bool state) {
 
   // Activating Charge
   relay_big_vehicle.set();
-  delay(10000); // Time to avoid multiple activations in different frames
+  
+  // Play charging animation (3 seconds per column) and then disconnect
+  play_charging_animation(3000);
+  relay_big_vehicle.reset();
+  delay(10000);
+}
+
+void set_bus_charging(bool state) {
+    // LOW state means LED is ON
+    digitalWrite(LED_BUILTIN, LOW);
+
+    Serial.println("Bus Vehicle arduino detected");
+
+    // --- UPDATED: Redesigned 'X' that locks perfectly to the 4 corners ---
+    uint8_t x_frame[104] = {
+        1,0,0,0,0,0,0,0,0,0,0,0,1,
+        0,1,1,0,0,0,0,0,0,0,1,1,0,
+        0,0,0,1,1,0,0,0,1,1,0,0,0,
+        0,0,0,0,0,1,1,1,0,0,0,0,0,
+        0,0,0,0,0,1,1,1,0,0,0,0,0,
+        0,0,0,1,1,0,0,0,1,1,0,0,0,
+        0,1,1,0,0,0,0,0,0,0,1,1,0,
+        1,0,0,0,0,0,0,0,0,0,0,0,1
+    };
+    matrix.draw(x_frame);
+    // ----------------------------------------
+  
+    // Set all LEDs to RED
+    for (int i = 0; i < 8; i++) {
+        leds.set(i, RED, brightness);
+        leds.show();
+    }
+    buzzer.tone(500, duration);  // Generate the tone
+    delay(3000);
+    buzzer.tone(0, duration);  // Stop the tone
+    for (int i = 0; i < 8; i++) {
+        leds.set(i, RED, 0);
+        leds.show();
+    }
+  digitalWrite(LED_BUILTIN, HIGH);
+  
+  delay(10000);
+
+  // Restore the matrix display to the knob's current state when the delay ends
+  matrix.draw(counter_frame);
 }
