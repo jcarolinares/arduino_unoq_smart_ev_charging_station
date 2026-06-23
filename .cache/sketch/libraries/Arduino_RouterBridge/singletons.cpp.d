@@ -1,4 +1,4 @@
-/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o: \
+/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o: \
  /home/arduino/.arduino15/internal/Arduino_RouterBridge_0.4.3_456a4ab6b378b066/Arduino_RouterBridge/src/singletons.cpp \
  /home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/llext-edk/include/zephyr/include/generated/zephyr/autoconf.h \
  /home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/llext-edk/include/zephyr/include/zephyr/toolchain/zephyr_stdint.h \

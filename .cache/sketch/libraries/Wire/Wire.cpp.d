@@ -1,4 +1,4 @@
-/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Wire/Wire.cpp.o: \
+/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Wire/Wire.cpp.o: \
  /home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/libraries/Wire/Wire.cpp \
  /home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/llext-edk/include/zephyr/include/generated/zephyr/autoconf.h \
  /home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/llext-edk/include/zephyr/include/zephyr/toolchain/zephyr_stdint.h \

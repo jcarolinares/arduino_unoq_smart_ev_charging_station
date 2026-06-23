@@ -49,8 +49,8 @@
   },
   {
     "compile": {
-      "source_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+      "source_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -112,12 +112,12 @@
         "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/cores/arduino/api/deprecated-avr-comp",
         "-iprefix/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx",
         "@/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/includes.txt",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
         "-o",
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -129,8 +129,8 @@
   },
   {
     "compile": {
-      "source_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+      "source_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -193,12 +193,12 @@
         "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/cores/arduino/api/deprecated-avr-comp",
         "-iprefix/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx",
         "@/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/includes.txt",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
         "-o",
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -210,8 +210,8 @@
   },
   {
     "compile": {
-      "source_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+      "source_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -275,12 +275,12 @@
         "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/cores/arduino/api/deprecated-avr-comp",
         "-iprefix/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx",
         "@/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/includes.txt",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
         "-o",
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -292,8 +292,8 @@
   },
   {
     "compile": {
-      "source_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+      "source_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -358,12 +358,12 @@
         "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/cores/arduino/api/deprecated-avr-comp",
         "-iprefix/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx",
         "@/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/variants/arduino_uno_q_stm32u585xx/includes.txt",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged",
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged",
         "-o",
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -373,7 +373,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/libraries/Wire/Wire.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Wire/Wire.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Wire/Wire.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -443,7 +443,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Wire/Wire.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Wire/Wire.cpp.libsdetect.d"
       ]
     }
   },
@@ -453,7 +453,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.56.0/libraries/SPI/SPI.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/SPI/SPI.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/SPI/SPI.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -523,7 +523,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/SPI/SPI.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/SPI/SPI.cpp.libsdetect.d"
       ]
     }
   },
@@ -533,7 +533,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/Arduino_RouterBridge_0.4.3_456a4ab6b378b066/Arduino_RouterBridge/src/singletons.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -603,7 +603,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.libsdetect.d"
       ]
     }
   },
@@ -613,7 +613,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/ArduinoGraphics_1.1.5_2ad5a9784ec32c4f/ArduinoGraphics/src/ArduinoGraphics.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/ArduinoGraphics.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/ArduinoGraphics.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -683,7 +683,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/ArduinoGraphics.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/ArduinoGraphics.cpp.libsdetect.d"
       ]
     }
   },
@@ -693,7 +693,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/ArduinoGraphics_1.1.5_2ad5a9784ec32c4f/ArduinoGraphics/src/Font_4x6.c",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/Font_4x6.c.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/Font_4x6.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -763,7 +763,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/Font_4x6.c.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/Font_4x6.c.libsdetect.d"
       ]
     }
   },
@@ -773,7 +773,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/ArduinoGraphics_1.1.5_2ad5a9784ec32c4f/ArduinoGraphics/src/Font_5x7.c",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/Font_5x7.c.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/Font_5x7.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -843,7 +843,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/Font_5x7.c.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/Font_5x7.c.libsdetect.d"
       ]
     }
   },
@@ -853,7 +853,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/ArduinoGraphics_1.1.5_2ad5a9784ec32c4f/ArduinoGraphics/src/Image.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/Image.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/Image.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -923,7 +923,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/ArduinoGraphics/Image.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/ArduinoGraphics/Image.cpp.libsdetect.d"
       ]
     }
   },
@@ -933,7 +933,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/Arduino_Modulino_0.8.0_cf7e8106889e770a/Arduino_Modulino/src/Modulino.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_Modulino/Modulino.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_Modulino/Modulino.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1003,7 +1003,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_Modulino/Modulino.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_Modulino/Modulino.cpp.libsdetect.d"
       ]
     }
   },
@@ -1013,7 +1013,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/STM32duino_VL53L4CD_1.0.5_7e2845a3c673dda2/STM32duino VL53L4CD/src/platform.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4CD/platform.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4CD/platform.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1083,7 +1083,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4CD/platform.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4CD/platform.cpp.libsdetect.d"
       ]
     }
   },
@@ -1093,7 +1093,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/STM32duino_VL53L4CD_1.0.5_7e2845a3c673dda2/STM32duino VL53L4CD/src/vl53l4cd_api.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_api.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_api.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1163,7 +1163,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_api.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_api.cpp.libsdetect.d"
       ]
     }
   },
@@ -1173,7 +1173,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/STM32duino_VL53L4CD_1.0.5_7e2845a3c673dda2/STM32duino VL53L4CD/src/vl53l4cd_calibration.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_calibration.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_calibration.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1243,7 +1243,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_calibration.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4CD/vl53l4cd_calibration.cpp.libsdetect.d"
       ]
     }
   },
@@ -1253,7 +1253,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/STM32duino_VL53L4ED_1.0.1_aec71b2071ab306b/STM32duino VL53L4ED/src/platform.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4ED/platform.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4ED/platform.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1323,7 +1323,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4ED/platform.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4ED/platform.cpp.libsdetect.d"
       ]
     }
   },
@@ -1333,7 +1333,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/STM32duino_VL53L4ED_1.0.1_aec71b2071ab306b/STM32duino VL53L4ED/src/vl53l4ed_api.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_api.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_api.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1403,7 +1403,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_api.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_api.cpp.libsdetect.d"
       ]
     }
   },
@@ -1413,7 +1413,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/STM32duino_VL53L4ED_1.0.1_aec71b2071ab306b/STM32duino VL53L4ED/src/vl53l4ed_calibration.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_calibration.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_calibration.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1483,7 +1483,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_calibration.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/STM32duino VL53L4ED/vl53l4ed_calibration.cpp.libsdetect.d"
       ]
     }
   },
@@ -1493,7 +1493,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/Arduino_LSM6DSOX_1.1.2_287085db9b88b474/Arduino_LSM6DSOX/src/LSM6DSOX.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_LSM6DSOX/LSM6DSOX.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_LSM6DSOX/LSM6DSOX.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1563,7 +1563,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_LSM6DSOX/LSM6DSOX.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_LSM6DSOX/LSM6DSOX.cpp.libsdetect.d"
       ]
     }
   },
@@ -1573,7 +1573,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/Arduino_LPS22HB_1.0.2_7fe1d8dd8007ad8f/Arduino_LPS22HB/src/BARO.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_LPS22HB/BARO.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_LPS22HB/BARO.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1643,7 +1643,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_LPS22HB/BARO.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_LPS22HB/BARO.cpp.libsdetect.d"
       ]
     }
   },
@@ -1653,7 +1653,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/Arduino_HS300x_1.0.0_182fd7848a9f4724/Arduino_HS300x/src/HS300x.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_HS300x/HS300x.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_HS300x/HS300x.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1723,7 +1723,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_HS300x/HS300x.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_HS300x/HS300x.cpp.libsdetect.d"
       ]
     }
   },
@@ -1733,7 +1733,7 @@
   {
     "compile": {
       "source_path": "/home/arduino/.arduino15/internal/Arduino_LTR381RGB_1.0.1_8e2ef512ad15494c/Arduino_LTR381RGB/src/LTR381RGB.cpp",
-      "depfile_path": "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_LTR381RGB/LTR381RGB.cpp.libsdetect.d"
+      "depfile_path": "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_LTR381RGB/LTR381RGB.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1803,7 +1803,7 @@
         "/dev/null",
         "-MMD",
         "-MF",
-        "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/.cache/sketch/libraries/Arduino_LTR381RGB/LTR381RGB.cpp.libsdetect.d"
+        "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/.cache/sketch/libraries/Arduino_LTR381RGB/LTR381RGB.cpp.libsdetect.d"
       ]
     }
   },

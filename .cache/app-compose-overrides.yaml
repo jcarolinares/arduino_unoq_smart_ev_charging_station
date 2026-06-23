@@ -19,9 +19,9 @@ services:
     - 1001
     labels:
       cc.arduino.app: "true"
-      cc.arduino.app.path: /home/arduino/ArduinoApps/copy-of-study-assistant-future-ev
+      cc.arduino.app.path: /home/arduino/ArduinoApps/demo-2-ev-smart-charging-station
     environment:
-      APP_HOME: /home/arduino/ArduinoApps/copy-of-study-assistant-future-ev
+      APP_HOME: /home/arduino/ArduinoApps/demo-2-ev-smart-charging-station
       BIND_ADDRESS: 0.0.0.0
       CUSTOM_MODEL_PATH: /home/arduino/.arduino-bricks/ei-models
       EI_OBJ_DETECTION_MODEL: /models/ootb/ei/yolo-x-nano.eim

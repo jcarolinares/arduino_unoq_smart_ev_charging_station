@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/sketch/sketch.ino"
+#line 1 "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/sketch/sketch.ino"
 // SPDX-FileCopyrightText: Copyright (C) ARDUINO SRL (http://www.arduino.cc)
 //
 // SPDX-License-Identifier: MPL-2.0
@@ -27,6 +27,7 @@ bool click = false;
 int direction = 0;
 
 ModulinoLatchRelay relay_car;
+ModulinoLatchRelay relay_big_vehicle(0x09);
 
 
 // Global Variables
@@ -44,15 +45,15 @@ uint8_t counter_frame[104] = {
     0,0,0,0,0,0,0,0,0,0,0,0,0,
 };
 
-#line 45 "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/sketch/sketch.ino"
+#line 46 "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/sketch/sketch.ino"
 void setup();
-#line 77 "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/sketch/sketch.ino"
+#line 80 "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/sketch/sketch.ino"
 void loop();
-#line 113 "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/sketch/sketch.ino"
+#line 116 "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/sketch/sketch.ino"
 void set_car_charging(bool state);
-#line 138 "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/sketch/sketch.ino"
+#line 141 "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/sketch/sketch.ino"
 void set_truck_charging(bool state);
-#line 45 "/home/arduino/ArduinoApps/copy-of-study-assistant-future-ev/sketch/sketch.ino"
+#line 46 "/home/arduino/ArduinoApps/demo-2-ev-smart-charging-station/sketch/sketch.ino"
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT); // We initiate the integrated LED to be used as visual Feedback
   
@@ -73,6 +74,7 @@ void setup() {
   buzzer.begin();
   knob.begin();
   relay_car.begin();
+  relay_big_vehicle.begin();
 
   // Matrix Pixels starting as OFF
   for (int i = 0; i < 8; i++) {
@@ -82,6 +84,7 @@ void setup() {
 
   // Rekay disconnected at the beggining as a safety feature
   relay_car.reset();
+  relay_big_vehicle.reset();
   
 }
 
@@ -165,7 +168,9 @@ void set_truck_charging(bool state) {
         leds.show();
     }
   digitalWrite(LED_BUILTIN, HIGH);
+
+  // Activating Charge
+  relay_big_vehicle.set();
   delay(10000); // Time to avoid multiple activations in different frames
 }
-
 
